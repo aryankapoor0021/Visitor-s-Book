@@ -45,7 +45,7 @@ router.post('/entry',async (req,respo)=>{
                 sgMail
                 .send(msg)
                 .then(() => {
-	                console.log(`Email sent to ${emailid}`)
+	                console.log(`Email sent to ${emailid} @VisitorsBook`)
                 })
                 .catch((error) => {
 	                console.error(error);
