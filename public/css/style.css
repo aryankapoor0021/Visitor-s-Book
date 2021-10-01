@@ -1,0 +1,14 @@
+body{
+	background-color: black;
+	color: floralwhite;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+h1{
+	font-weight: bolder;
+	margin: 10px 20px;
+}
+.fixed{
+	background-color: white;
+	border: 0;
+}
