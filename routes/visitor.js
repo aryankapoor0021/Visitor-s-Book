@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const User = require('../models/user');
 const sgMail = require('@sendgrid/mail');
-const showTime=require("C:/Users/HP world/Desktop/fed/Assignment-9/public/js/time");
+const showTime=require("../public/js/time");
 require('dotenv').config();
 const flash = require('connect-flash');
 let isPresent=false;
